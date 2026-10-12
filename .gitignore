@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.next/
+out/
+dist/
+coverage/
+*.pem
+*.key
+*keypair*.json
+.state/
+.DS_Store

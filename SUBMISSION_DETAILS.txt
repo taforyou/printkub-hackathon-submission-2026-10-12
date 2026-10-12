@@ -1,0 +1,9 @@
+Project: PrintKub — Wallet Authentication and x402 Agent Payment Extension
+
+Suggested form description:
+We extended the existing PrintKub 3D-printing marketplace with wallet authentication and customer-authorized agent purchasing using x402 V2 on Solana Devnet USDC. The integration links an agent wallet to a customer, enforces explicit spending/product/delivery limits, creates an immutable order-specific payment quote, and connects finalized settlement to PrintKub order fulfillment. An isolated Deno signer and persistent recovery journal keep keys outside the browser/model runtime and support recovery of pending payments. The agent pays product and delivery USDC; optional sponsorship covers only SOL network fees.
+
+This is an extension and cannot run standalone: it requires PrintKub Auth, database/RPC/RLS, product files, pricing, checkout, admin/fulfillment, and configured payment services. Wallet authentication is owner-confirmed; successful agent-paid order acceptance remains pending in the documented record. Included supporting host code must not be presented as new hackathon work.
+
+Repository link: insert the real direct GitHub repository URL after your manual push. No URL has been fabricated.
+Private repository access: share with hackathon@colosseum.com and confirm accepted/active access before submitting.

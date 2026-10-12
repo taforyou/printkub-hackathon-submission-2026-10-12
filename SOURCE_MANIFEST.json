@@ -1,0 +1,367 @@
+{
+  "snapshot_date": "2026-10-12",
+  "source_checkout_head": "6fcb6045e403a68c4072505bf853bdc3aa584eb2",
+  "note": "Selected local source snapshot. Git HEAD is provenance only; hackathon dates and authorship must be confirmed by the owner. Source bytes are copied unchanged.",
+  "files": [
+    {
+      "path": "components/auth/DynamicCaptcha.tsx",
+      "bytes": 4106,
+      "sha256": "b560311e4c486f012b8e0878deb008abd4ee6977df4ee268ca0ace22b7bd9328",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "components/auth/DynamicLogin.tsx",
+      "bytes": 13414,
+      "sha256": "5694439e8be0453ae2bfa2bdb5a3cbf969bb144291e3f45639e14b8643d213e5",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "components/payment/AgentPaymentApproval.tsx",
+      "bytes": 13666,
+      "sha256": "68a4e371e95a81eaabafd3d0852d035c22226db612ed48699bedd435ab8d98fd",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "components/payment/AgentRunnerSetup.tsx",
+      "bytes": 6906,
+      "sha256": "e6c4e9073c373302ac2dcf747a224fa25563a98212a110b9f76917569e197e0e",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "components/payment/AgentSpendingPermission.tsx",
+      "bytes": 11823,
+      "sha256": "54ac6a1e8684f39b242d00f082c64c0c3f5a03eacaf42d06b9ac76c32c332665",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "components/payment/AgentWalletSettings.tsx",
+      "bytes": 5430,
+      "sha256": "eb3131e36ac99929a0d4c2a194dfd4c7632bda73eb16be9f10e0d4254440d3e5",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "lib/dynamic/DynamicProviderGate.tsx",
+      "bytes": 657,
+      "sha256": "51c566e2f792ab8bedf643c7f3666cedf26090a0782652f030e1d74f6654f21e",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "lib/dynamic/DynamicReadyContext.ts",
+      "bytes": 190,
+      "sha256": "c318d76480dc49b7d256f1ce7d2172c2a5b82daa7ce7e72971fb12862a442171",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "lib/dynamic/DynamicRuntime.tsx",
+      "bytes": 3609,
+      "sha256": "6e3c9893f86187d17b2f17b5686d1eb5e9ae23c517861497e5fd027fa99b69aa",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "lib/dynamic/dynamicClient.ts",
+      "bytes": 2010,
+      "sha256": "db84387fa7a5a9c3b39cb507ac57fd1df27fcddaaa1fc2d456d7d0ff14aa2823",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "lib/payment/x402Permissions.ts",
+      "bytes": 3798,
+      "sha256": "af66a2b0037f80a7d1a1fc957a50beb8b1121bcac08cb5255820a1619302043b",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/functions/_shared/auth-cors.ts",
+      "bytes": 630,
+      "sha256": "f12cdb73ec06e582b515f3b1bcc2f8442d43063ccd92f2c93685994395f7beb1",
+      "category": "shared dependency"
+    },
+    {
+      "path": "supabase/functions/_shared/auth-hash.ts",
+      "bytes": 229,
+      "sha256": "35e0e70fb029d12581c4d419baa5a7fca99a2cbc9299c32212eaaf26cad5b327",
+      "category": "shared dependency"
+    },
+    {
+      "path": "supabase/functions/_shared/bot-rate.ts",
+      "bytes": 3010,
+      "sha256": "f95625ab7a6fcd917f7a57509e752ae0a2b83ffb84c5a247fd78df1b68bc798f",
+      "category": "shared dependency"
+    },
+    {
+      "path": "supabase/functions/_shared/cdp-x402-auth.ts",
+      "bytes": 3899,
+      "sha256": "0db5f3ce4be0bda801cd29aada3906b510800f878c5926f58849a91498ec8a81",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/functions/_shared/crypto-networks.ts",
+      "bytes": 860,
+      "sha256": "de05ec5d6c1e8611c02b4b77016add1c1696ac341ce852cbfec4bb4f71c65791",
+      "category": "shared dependency"
+    },
+    {
+      "path": "supabase/functions/_shared/dynamic-auth.ts",
+      "bytes": 2976,
+      "sha256": "e467bdb9985a39395415c0b3c13b2f03f8d67b31dc22e2c1268da3e90ab2438d",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/functions/_shared/dynamic-wallets.ts",
+      "bytes": 551,
+      "sha256": "a304d4aea56fa531f387fd6b13fe112b863ca65fbd52b2bab7fa7776d8174f1a",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/functions/_shared/order-email.ts",
+      "bytes": 24218,
+      "sha256": "475f3f5a673236c2f9a2961c70ac52eb70dc76b812620840ae5e5dae309eef5b",
+      "category": "shared dependency"
+    },
+    {
+      "path": "supabase/functions/_shared/solana-payment-rules.ts",
+      "bytes": 4991,
+      "sha256": "bbb26704cc03a5c208532e0a636bf26736e5ccb7f958b2d152a0c32610ef84fd",
+      "category": "shared dependency"
+    },
+    {
+      "path": "supabase/functions/_shared/solana-transaction-validation.ts",
+      "bytes": 6030,
+      "sha256": "18e5ca3ade4a23f7b3acacd2a20fd92b077246a94d6a9f668d798c958c6f31ac",
+      "category": "shared dependency"
+    },
+    {
+      "path": "supabase/functions/_shared/x402-agent-rules.ts",
+      "bytes": 4892,
+      "sha256": "8e6c6423db5a4bbba6ed80877fd365283a8d2e8c9a4514634f2436c96a32b1ee",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/functions/_shared/x402-delivery-diagnostics.ts",
+      "bytes": 585,
+      "sha256": "828ca4aec6a47f2bd98d72956118120d2eeda406bed80c62bc44680dc2164742",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/functions/_shared/x402-delivery.ts",
+      "bytes": 316,
+      "sha256": "3bfde841ddf16a003a509beccf6b18754306ea45ce6addb04c27f6b6a5508941",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/functions/_shared/x402-facilitator.ts",
+      "bytes": 2022,
+      "sha256": "8df981186df25096fbd0a89689c357cb6b7a1dd345529904e207381080b75842",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/functions/_shared/x402-order-email.ts",
+      "bytes": 2247,
+      "sha256": "cea1a4fd13ff80de989d980212dc6c7dfff1a8ce6d9b918b9ea92f1e52e4db4e",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/functions/_shared/x402-payment-rules.ts",
+      "bytes": 9402,
+      "sha256": "3d390cec2416ec0e8a8943444c8be8ff62038410da59eaa64983bf93e7f29d16",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/functions/_shared/x402-permission-rules.ts",
+      "bytes": 2268,
+      "sha256": "148d9b0f039f6d7a3f0cb1b34b62c9cd6cd57a4139b2a14af7d27d84bc6636f3",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/functions/_shared/x402-printkub-sponsor.ts",
+      "bytes": 5619,
+      "sha256": "72df77eace609a35a0d3e794a5b76ff987611f33829f13e17d97b56c9708fd62",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/functions/_shared/x402-quote.ts",
+      "bytes": 2678,
+      "sha256": "44bbf3c51880dd798000d5805d527658763bd77983e02a588c847853aabbbc59",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/functions/_shared/x402-recovery-rules.ts",
+      "bytes": 2025,
+      "sha256": "f2d548a6799ab1780684ff4c7d639d348f54b49356dc7b9f7b67a87c8b753582",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/functions/_shared/x402-recovery.ts",
+      "bytes": 3431,
+      "sha256": "8b4d7f8d96b0392be1add53bd1b58e0bca49e9275a971170aec6384604309320",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/functions/_shared/x402-shopping-rules.ts",
+      "bytes": 1494,
+      "sha256": "f1be7e8a3bc62007c10aca647f7c824ff54941a6423cfee231ddc528cb098b9a",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/functions/_shared/x402-shopping.ts",
+      "bytes": 6467,
+      "sha256": "861589b9bc7a9cf72d1afb04d3a5523ca1d1741c17c55bc3bd1b6b140b77cdc2",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/functions/_shared/x402-solana.ts",
+      "bytes": 8032,
+      "sha256": "baa680403eb6635360c3b6102f2f4024358829b1f0614a4ea08dd6063ea13de4",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/functions/_shared/x402-sponsor-rules.ts",
+      "bytes": 1605,
+      "sha256": "d1398ff536770ed3fbf105cc71e21a6e706bf6494fa25c470cad7bb25fffd94f",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/functions/agent-catalog/index.ts",
+      "bytes": 160,
+      "sha256": "4ce0ea9c3bf0103a1313f09e5ace78e3043bcb12751ab0cadf8e522153ad9a0d",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/functions/authenticate-dynamic-user/index.ts",
+      "bytes": 6014,
+      "sha256": "b0a76ffc8156451cbff69174dc78de583392057452bd5ff05ead9f8c1938f4a6",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/functions/authenticate-x402-agent/index.ts",
+      "bytes": 4364,
+      "sha256": "904dbb0aeaec0c563755e4cf347f132e1974ad0cdfad67d54c35345cc6412bad",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/functions/x402-pay/index.ts",
+      "bytes": 12683,
+      "sha256": "31602d84faa27132792890e26f2c8c6387dd0121676a51258827aa083cf64026",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/functions/x402-permissions/index.ts",
+      "bytes": 20182,
+      "sha256": "c536fe03ea6c7fa51f36ce76352cb7081b986f913cb5789bdff07e15b5b8808f",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/functions/x402-purchase/index.ts",
+      "bytes": 161,
+      "sha256": "aef9b9069bdbb6ddc0ad69768fc12c48ee781b3367da5dab6dbc1e4c61f8ba09",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/functions/x402-reconcile/index.ts",
+      "bytes": 4214,
+      "sha256": "3448795e2d961d8ea5d5aea10ae88e2e200c5d23b631ffab9215a211e356b30d",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/migrations/037_dynamic_auth_identity_isolation.sql",
+      "bytes": 17310,
+      "sha256": "08428e7b5246509b13cf9e8f43b266104f0a845413772a8fb9a3d57368e9963f",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/migrations/038_auth_admin_initial_provider_binding.sql",
+      "bytes": 3196,
+      "sha256": "518ad73c0dbc87732e6f23da3f73b78a74b783991e9029818bc2d67e96d45f47",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/migrations/040_creator_crypto_checkout.sql",
+      "bytes": 15380,
+      "sha256": "a57a062345b20c80aa20e2b2205def4ee2fc47bce99afd6b265d472534cfb5bc",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/migrations/041_solana_order_email.sql",
+      "bytes": 504,
+      "sha256": "32dcc034dc15e4148eb5c07e27351cdf1977a243cc4ef98e94c6ce25649773f2",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/migrations/042_x402_payment_foundation.sql",
+      "bytes": 43620,
+      "sha256": "69a57862f4f5041387ff09cc9272f804476c427365e200d41f1d49469422edfc",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/migrations/043_x402_agent_wallet_verification.sql",
+      "bytes": 12890,
+      "sha256": "e03a6d93a4a6ac7deb0ad0b1dbe9c7cde7eec744cbcc4fa8b1e12b2dd6eafa01",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/migrations/044_x402_settlement_dispatch.sql",
+      "bytes": 4606,
+      "sha256": "94265a751b08a2480d05a8d42960b29c07adb2d61a441fea876d39032b01037a",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/migrations/045_x402_background_recovery.sql",
+      "bytes": 6228,
+      "sha256": "3ef56207f2c93708343df14efe0ac131109f50129834bc773dc4a6acc82401c3",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/migrations/046_x402_customer_agent_wallets.sql",
+      "bytes": 18643,
+      "sha256": "3fe68152a596b248bd7489e3d1ab05106dc89283a97aae267fd12ddf33fe6528",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/migrations/047_x402_standing_permissions.sql",
+      "bytes": 8841,
+      "sha256": "eeb89c4092f6f07a6611b3afe712a76146d5f124f35aec95e61d9c0dfd2569b1",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/migrations/048_x402_delegated_checkout.sql",
+      "bytes": 30323,
+      "sha256": "36a6366d3552f7d72d2a183b67f8f84921031e0cc2289c4b0c7f94bec8f9ae39",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/migrations/049_x402_delivery_diagnostics.sql",
+      "bytes": 4430,
+      "sha256": "13fbe0778b85bc743d44f7577cd1ee04dd5dcd33f98c208bb2793b6be73ce233",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/migrations/050_x402_delivery_phone_normalization.sql",
+      "bytes": 1029,
+      "sha256": "26f6087b7113514cafaafe30a86f75649b226dae9a7cd2f0eeae3f46c22c19cf",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/migrations/051_x402_printkub_sponsor.sql",
+      "bytes": 9512,
+      "sha256": "ee044f8ac0dc04fb831e9ffddf57411fb4d90265858f9078cfa2cb447eef24ba",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "supabase/migrations/052_x402_disable_product_funding.sql",
+      "bytes": 4786,
+      "sha256": "aae7f608f5d3defa51bcfed66bfba731ad35798dd2d93b20bca7e8d7c64c14f3",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "tools/x402-agent/deno.json",
+      "bytes": 120,
+      "sha256": "adcc0b74a7de2a1efdc079c10530d6cb1033defbb4d5455263d41652b9474f67",
+      "category": "extension source or foundation migration"
+    },
+    {
+      "path": "tools/x402-agent/main.ts",
+      "bytes": 17838,
+      "sha256": "8ea4080201ed4819a86aa53505a286956db87b943573cbadafef87647a120c5f",
+      "category": "extension source or foundation migration"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+EXPLANATORY PSEUDOCODE — NOT EXECUTABLE
+
+customer_session = host.authenticate_customer()
+wallet_link = host.link_agent_wallet(customer_session, agent_public_key)
+agent_session = host.verify_fresh_signed_login_challenge(wallet_link)
+# Wallet ownership is identity only; it never creates payment consent.
+policy = host.customer_explicitly_authorizes_bounded_standing_permission()
+product = agent.choose_from_supported_host_catalog(agent_session)
+purchase = host.prepare_and_authorize_under_policy(
+    agent_session, persistent_request_id, product, quantity=1,
+    approved_options, approved_delivery_snapshot
+)
+# Backend atomically checks scope, revocation, expiry, counts and remaining budget.
+challenge = host.x402_payment_requirements(purchase.grant_id)
+isolated_signer.check_exact_network_asset_amount_recipient_memo_and_limits(challenge)
+payment = isolated_signer.sign_agent_usdc_payment(challenge)
+# If enabled, sponsor completes SOL fee signing only; product USDC stays agent-paid.
+result = host.submit_existing_attempt_once(payment, persistent_idempotency_key)
+if result.is_pending:
+    persist_journal_and_report_pending()
+    recover_existing_attempt_without_starting_a_second_charge()
+if host.has_correlated_finalized_chain_receipt(result):
+    host.atomically_confirm_payment_consume_budget_and_update_ordinary_order()
+    host.repair_admin_notification_if_needed()

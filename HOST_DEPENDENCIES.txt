@@ -1,0 +1,13 @@
+Referenced host source intentionally omitted from this focused extension package:
+
+lib/auth/invokeAuthenticatedFunction.ts
+lib/config/featureFlags.ts
+lib/config/printConfig.ts
+lib/i18n/LocaleContext.tsx
+lib/supabase.ts
+lib/theme/ThemeContext.tsx
+lib/types/database.ts
+supabase/functions/_shared/bangkok-time.ts
+supabase/functions/_shared/diy-clicker-artwork.ts
+
+Also required: the existing Supabase baseline and ordered migration history, Auth/RLS, storage/catalog records and product files, authenticated frontend providers, fulfillment and admin application, external SDKs/services and private operator configuration. Included incremental migrations are not a standalone database bootstrap.
